@@ -11,5 +11,6 @@ public interface ReservationRepositoryDomain {
     List<ReservationDTO> getByIdUser(Integer idUser);
     Optional<ReservationDTO> getById(Integer idReservationDTO);
     ReservationDTO save(ReservationDTO reservationDTO);
+    ReservationDTO update(ReservationDTO reservationDTO);
 
 }

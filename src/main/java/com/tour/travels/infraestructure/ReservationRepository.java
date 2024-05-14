@@ -44,4 +44,10 @@ public class ReservationRepository implements ReservationRepositoryDomain {
         return reservationMapper.toReservationDTO(reservationCrudRepository.save(reservation));
     }
 
+    @Override
+    public ReservationDTO update(ReservationDTO reservationDTO) {
+        Reservation reservation = reservationMapper.toReservation(reservationDTO);
+        return reservationMapper.toReservationDTO(reservationCrudRepository.save(reservation));
+    }
+
 }

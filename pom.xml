@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tour</groupId>
-	<artifactId>restaurant</artifactId>
+	<artifactId>tour_travels</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>restaurant</name>
+	<name>tour_travels</name>
 	<description>tours project with spring boot</description>
 	<properties>
 		<java.version>17</java.version>
